@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AER Project</title>
+    <style>
+        .title {
+            color: white;
+            background-color: blue;
+            padding-left: 500px;
+            font-size: 60px;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            margin-top: 30px;
+        }
+        label{
+            margin-left: 20px;
+            font-size: 25px;
+        }
+        .para{
+            font-size: 30px;
+        }
+        .name{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">REMOTE SCHOOL</h1>
+    <h2 class="name">Course name : Mathematics</h2>
+    <h2 class="name">Course materials : </h2>
+    <ul>
+        <li>
+            <a href="./quadratic equations.pdf"><p class="para">Quadratic Equations</p></a>
+        </li>
+        <li>
+            <video controls src="./How_To_Solve_Quadratic_Equations_By_Factoring_Quick_&_Simple!_.mp4" width="200px" height="200px" >Quadratic Equations</video>
+        </li>
+    </ul>
+    <h2>Find the sum of roots of this quadratic equation : 
+        x<sup>2</sup>-6x+8=0
+    </h2>
+    <form action="server.php">
+        <label for="A">A)3</label>
+        <input type="radio" name="A" id="A">
+        <label for="B">B)8</label>
+        <input type="radio" name="A" id="B">
+        <label for="C">C)6</label>
+        <input type="radio" name="A" id="C">
+        <label for="D">D)4</label>
+        <input type="radio" name="A" id="D">
+    </form>
+    <h2>Find the greatest root of this equation :
+    2x<sup>2</sup>+7x+3=0    
+    </h2>
+    <form action="server.php">
+        <label for="A">A)-3</label>
+        <input type="radio" name="A" id="A">
+        <label for="B">B)-0.5</label>
+        <input type="radio" name="A" id="B">
+        <label for="C">C)-2</label>
+        <input type="radio" name="A" id="C">
+        <label for="D">D)-1</label>
+        <input type="radio" name="A" id="D">
+    </form>
+
+</body>
+</html>
